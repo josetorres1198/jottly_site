@@ -1,58 +1,39 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
 
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>Jott.ly</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- CSS
-  ================================================== -->
-  <link rel="stylesheet" href="stylesheets/base.css">
-  <link rel="stylesheet" href="stylesheets/skeleton.css">
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/layout.css">
-
-  <!--[if lt IE 9]>
+<html>
+    <head>
+        <title>Jotty.ly</title>
+        <!-- CSS
+  ==================================================-->
+        <link href="base.css" rel="stylesheet" />
+        <link href="skeleton.css" rel="stylesheet" />
+        <link href="styles.css" rel="stylesheet" />
+       <link href="layout.css" rel="stylesheet" />
+        <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <!-- Favicons
-  ================================================== -->
-  <link rel="shortcut icon" href="images/favicon.ico">
+
+        <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  <style type="text/css">
-  body {
-    background-color: #006E83;
-  }
-  </style>
-
-</head>
-<body>
-<!--this is the nav section-->
+        
+    </head>
+    <body>
+        <!--this is the nav section-->
         <nav class="top_bar">
             <div class="btn_one">
                 <a class="sign_in" href="#" onclick="JavaScript:alert('Thank You!')">Sign In</a>
                 <button class="one">Sign Up</button>
             </div>
               <div class="logo">
-          <a href="index.html"><img src="https://www.dropbox.com/lightbox/home/jottly_jose-torres/jottly_artboards" alt="jott.ly"/></a>
+        <img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-logo.png" alt="jott.ly"/>
        </div>
         </nav>
         <!--this is the end of nav section-->
 
+        <!--header section begins-->
     <div id="header">
       <div class="marketing">
         <h1 class="jott">Jott.ly</h1>
@@ -67,15 +48,23 @@
 
         <!--this is the content section-->
         <div class="container">
-      <div class="twelve columns offset-by-two">
+      <div class="contain_top">
         <h2>What is Jott.ly exactly?</h2>
         <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
       </div>
-      <div class="fourteen columns offset-by-one">
-        <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
+      <div class="contain_image">
+        <img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/myfirstjott.png" alt="Jottly's Web Application" />
       </div>
     </div>
-      <div class="testimonials">
+        <!--end of content-->
+
+        <!--testimonials section starts-->
+      <div id="testimonials">
+         <div class="container_two">
+          <div class="twelve columns offset-by-two">
+        <h2>Who's using it?</h2>
+        <p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
+      </div>
         <div class="one-third column">
         <div class="avatar">
           <img src="http://cdn.getforge.com/jott.ly.getforge.io/1398310739/img/user-photos/elle.png" alt="Jessica S." />
@@ -95,10 +84,15 @@
           “I loved the reat-time editing option and the collaborating capability. Awesome app and would recommend to all my friends and family.
         </blockquote>
       </div>
+           </div>
        </div>
-        <div class="bottom">
-            <h2>Its fun and free. For LIFE!</h2>
-        </div>
+     <div class="bottom">
+            <h2 class="tag">Its fun and free. For LIFE!</h2>
+        
+        <div class="btn_two">
+        <button class="two">Sign Up</button>
+    </div>
+    </div>
         <!--this is end of content-->
         <footer>
             <ul>
@@ -108,5 +102,6 @@
                 <li><a href="#">Privacy &amp Terms</a></li>
             </ul>
         </footer>
-</body>
+
+    </body>
 </html>

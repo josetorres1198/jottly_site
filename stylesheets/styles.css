@@ -31,9 +31,11 @@ h3 {
 }
 .top_bar{
     background-color:#808080;
-    padding:10px 7px 10px 4px;
+    padding:20px 7px 20px 4px;
 }
-.logo {
+.logo{
+    height:80px;
+    width:200px;
     margin-left:200px;
 }
 .sign_in{
@@ -66,19 +68,56 @@ h3 {
     color: #fff;
     background-color: #f00;
 }
-.testimonials{
+.container {
+    height:500px;
+}
+.container h2 {
+    padding:10px 0 5px 0;
+    margin: auto;
+}
+.container img {
+    height:500px;
+    width:1000px;
+    margin:0 0 30px 0;
+}
+.container_two .one-third.column  { 
+    width: 300px; 
+}
+.container_two { 
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.container_two .column, .container_two .columns {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#testimonials {
+    padding:4em 0;
+    text-align: center;
     background-color:#006E83;
 }
-blockquote {
+#testimonials h2 {
+    color:#fff;
+    font-weight: 300;
+    margin:0 10px 20px 0;
+}
+#testimonials p {
+    color:#fff;
+    font-size:1.2em;
+}
+#testimonials blockquote {
     border:none;
     text-align: left;
     padding:0 1.5em 0 0;
     font-size:1em;
-    color:#4d4d4d;
+    color:#fff;
     line-height: 1.4;
     margin-top: 1em;
 }
-.avatar img {
+#testimonials .avatar img {
     border-radius: 50%;
     float:left;
     display:inline;
@@ -86,20 +125,33 @@ blockquote {
     width:65px;
     height:65px;
 }
+#testimonials .avatar p {
+    text-align: left;
+    padding-top:1.5em;
+    color:#000;
+    font-weight: 900;
+}
 .bottom{
-    min-height:300px;
+    min-height:450px;
     background-image: url('https://unsplash.imgix.net/1/work-stations-plus-espresso.jpg?q=75&fm=jpg&s=58bc41a85ec280e84271133e1d4adbf7');
-    opacity: 0.5;
+    opacity: 0.4;
     background-size:cover;
     background-position:center,center;
+}
+.tag{
+    padding-top:2em;
+    margin:0 0 0 650px;
+    color: #000;
 }
 footer{
     padding:20px 0 0 0;
     background-color: #000000;
 }
-a:hover{
+a{
     text-decoration:none;
-    color:#fff;
+}
+a:hover{
+    color: #fff;
 }
 li{
     display:inline-block;
