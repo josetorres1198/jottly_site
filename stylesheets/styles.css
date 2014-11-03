@@ -7,19 +7,20 @@ h1, h2 {
     margin: 0 0 0 400px;
 }
 .jott{
-    
+    font-size:70px;
     margin:0 0 0 670px;
 }
 
 h1 {
     padding:70px 0 0 0;
-    font-size:70px; /* 4.375em */
+    margin:0 0 0 490px;
+    font-size:50px; /* 4.375em */
     font-weight:bold;
 }
 
 h2 {
     padding:5px 0 0 0;
-    margin:0 0 0 550px;
+    margin:0 0 0 525px;
     font-size:20px; /* 1.25em */
     font-weight:normal;
 }
@@ -29,29 +30,53 @@ h3 {
     font-size:18px; /* 1.125em */
     font-weight:bold;
 }
-.top_bar{
-    background-color:#808080;
-    padding:20px 7px 20px 4px;
+header {
+    padding:18px 0 12px 0;
+    background-color: #808080;
+    margin-top: 0;
 }
-.logo{
-    height:80px;
-    width:200px;
-    margin-left:200px;
-}
-.sign_in{
-    color:#fff;
-}
-.btn_one{
-   
-    margin:0 200px 0 0;
-    float:right;
-}
-.one{
-    height:30px;
-    width:100px;
-    color:#fff;
-    background-color: #006E83;
-}
+
+    header #nav-bar nav {
+        display:inline;
+    }
+    header #nav-bar nav ul {
+        float: right;
+        margin: 15px 70px;
+        list-style-type: none;
+    }
+        header nav ul li {
+            display: inline;
+            padding:0 20px;
+            font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+            font-size: 1.125em; /*16px*/
+            text-transform: uppercase;
+        }
+
+        #nav-bar nav ul li#signup {
+            background-color:#006E83;
+            border: 2px solid #FFF;
+            padding:7px 16px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -o-border-radius: 3px;
+            border-radius: 3px;
+
+        }
+            #nav-bar nav ul li a {
+                
+                color:#fff;
+                text-decoration: none;
+            }
+            #nav-bar nav ul li a:hover,
+            #nav-bar nav ul li#signup:hover {
+                opacity:.85;
+            }
+            #nav-bar img{
+                max-height:40px;
+                min-width:220px;
+                padding:0 0 5px 0;
+                margin-left:20px;
+            }
 #header{
     margin-top:0;
     min-height:500px;
@@ -67,18 +92,23 @@ h3 {
     width:150px;
     color: #fff;
     background-color: #f00;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius: 3px;
 }
 .container {
-    height:500px;
+    height:515px;
 }
-.container h2 {
-    padding:10px 0 5px 0;
-    margin: auto;
+.contain_h {
+    padding:10px 0 0 350px;
+    margin: 20px;
+    font-size:30px;
 }
 .container img {
     height:500px;
     width:1000px;
-    margin:0 0 30px 0;
+    margin:0 0 100px 0;
 }
 .container_two .one-third.column  { 
     width: 300px; 
@@ -102,6 +132,7 @@ h3 {
 #testimonials h2 {
     color:#fff;
     font-weight: 300;
+    font-size: 30px;
     margin:0 10px 20px 0;
 }
 #testimonials p {
@@ -132,31 +163,83 @@ h3 {
     font-weight: 900;
 }
 .bottom{
-    min-height:450px;
-    background-image: url('https://unsplash.imgix.net/1/work-stations-plus-espresso.jpg?q=75&fm=jpg&s=58bc41a85ec280e84271133e1d4adbf7');
-    opacity: 0.4;
-    background-size:cover;
-    background-position:center,center;
+    min-height:400px;
+   background-color:#808080;
 }
 .tag{
     padding-top:2em;
-    margin:0 0 0 650px;
-    color: #000;
-}
-footer{
-    padding:20px 0 0 0;
-    background-color: #000000;
-}
-a{
-    text-decoration:none;
-}
-a:hover{
+    margin:0 0 0 400px;
     color: #fff;
+    font-size: 40px; 
+    line-height: 48px;  
+    width: 90%; 
 }
-li{
-    display:inline-block;
-    padding:0 0 0 5px;
-    margin:0 0 20px 10px;
+.btn_three{
+    margin:100px 0 0 700px;
+    height:150px;
 }
+.three{
+    height:50px;
+    width:150px;
+    color: #fff;
+    background-color: #f00;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius: 3px;
+}
+footer {
+    background-color: #000;
+    min-height:80px;
+    padding:20px;
+     
+}
+footer nav ul li {
+    display: inline;
+    padding: 10px 20px 10px 0;
+    font-family:Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif, Helvetica, Arial, sans-serif ;
+    font-size: 1.125em; /*16px*/
+    text-transform: uppercase;
+    float: left;
+    margin-left:20px;
+}
+
+footer nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+footer nav ul li a:hover {
+    color: #006E83;
+    opacity:.85;
+    text-decoration: none;
+}
+
+footer #social-media {
+    float: right;
+    margin-right:20px;
+}
+
+footer #social-media ul li {
+    padding: 0 5px;
+    display: inline;
+}
+
+footer #social-media {
+    padding-bottom: 0;
+    margin-top: 2px;
+}
+
+
+footer #social-media img {
+    max-height:45px;
+    max-width:45px;
+}
+
+footer #social-media img:hover {
+    opacity: .9;
+}
+
 /* Smaller than standard 960 (devices and browsers) */
   @media only screen and (max-width: 959px) {}

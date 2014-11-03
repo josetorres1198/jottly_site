@@ -22,15 +22,19 @@
     </head>
     <body>
         <!--this is the nav section-->
-        <nav class="top_bar">
-            <div class="btn_one">
-                <a class="sign_in" href="#" onclick="JavaScript:alert('Thank You!')">Sign In</a>
-                <button class="one">Sign Up</button>
-            </div>
-              <div class="logo">
-        <img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-logo.png" alt="jott.ly"/>
+        <header>
+    <div class="nav_section">
+      <div id="nav-bar" class="sixteen columns">
+          <a href="#"><img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-logo.png" alt="Jott.ly Logo"/></a>
+          <nav>
+            <ul>
+                <li><a href="#">Sign In</a></li>
+                <li id="signup"><a href="#">Sign Up Now</a></li>
+            </ul>
+          </nav>
        </div>
-        </nav>
+    </div>
+  </header>
         <!--this is the end of nav section-->
 
         <!--header section begins-->
@@ -49,7 +53,7 @@
         <!--this is the content section-->
         <div class="container">
       <div class="contain_top">
-        <h2>What is Jott.ly exactly?</h2>
+        <h2 class="contain_h">What is Jott.ly exactly?</h2>
         <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
       </div>
       <div class="contain_image">
@@ -87,21 +91,36 @@
            </div>
        </div>
      <div class="bottom">
-            <h2 class="tag">Its fun and free. For LIFE!</h2>
+            <h2 class="tag">Join <em>Jott.ly</em> today Its <em>fun</em> and <em>free</em> For LIFE!</h2>
         
-        <div class="btn_two">
-        <button class="two">Sign Up</button>
+        <div class="btn_three">
+        <button class="three">Sign Up</button>
     </div>
     </div>
         <!--this is end of content-->
         <footer>
+    <div>
+      <div class="sixteen columns">
+        <div>
+          <nav>
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Privacy &amp Terms</a></li>
+                
             </ul>
-        </footer>
-
+          </nav>
+        </div>
+        <div id="social-media">
+          <ul>
+              <li><a href="www.facebook.com"><img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-facebookslice.png" alt="Facebook Icon"/></a></li>
+              <li><a href="www.twitter.com"><img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-twitterslice.png" alt="Twitter Icon"/></a></li>
+              <li><a href="www.pinterest.com"><img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-pinterestslice.png" alt="Pinterest Icon"/></a></li>
+              <li><a href="www.instagram.com"><img src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-instagramslice.png" alt="Instagram Icon"/></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
     </body>
 </html>
