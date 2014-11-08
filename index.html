@@ -1,112 +1,109 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
 
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>Your Page Title Here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- CSS
-  ================================================== -->
-  <link rel="stylesheet" href="stylesheets/base.css">
-  <link rel="stylesheet" href="stylesheets/skeleton.css">
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/layout.css">
-
-  <!--[if lt IE 9]>
+<html>
+    <head>
+        <title>Jotty.ly</title>
+        <!-- CSS
+  ==================================================-->
+        <link href="stylesheets/base.css" rel="stylesheet" />
+        <link href="stylesheets/skeleton.css" rel="stylesheet" />
+        <link href="stylesheets/styles.css" rel="stylesheet" />
+       <link href="stylesheets/layout.css" rel="stylesheet" />
+        <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-
-  <!-- Favicons
-  ================================================== -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  <style type="text/css">
-  body {
-    background-color: #006E83;
-  }
-  </style>
-
-</head>
-<body>
-<!--this is the nav section-->
-        <nav class="top_bar">
-            <div class="btn_one">
-                <a class="sign_in" href="#" onclick="JavaScript:alert('Thank You!')">Sign In</a>
-                <button class="one">Sign Up</button>
-            </div>
-              <div class="logo">
-          <a href="index.html"><img src="#" alt="jott.ly"/></a>
-       </div>
-        </nav>
+        
+    </head>
+    <body>
+        <!--this is the nav section-->
+        <div id="header">
+    <div class="container">
+      <div class="sixteen columns">
+        <img class="scale-with-grid" src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/Jottly-logo.png" alt="Logo">
         <!--this is the end of nav section-->
 
-    <div id="header">
-      <div class="marketing">
-        <h1 class="jott">Jott.ly</h1>
-                <h1>collaborating made easy</h1>
-        <h2>Write, store &amp share your ideas with friends &amp colleagues.</h2>
-      </div>
-      <div class="btn_two">
-        <button class="two">Sign Up</button>
+        <!--header section begins-->
+    <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#prod-highlight">About</a></li>
+          <li><a href="#newsletter">Contact</a></li>
+        </ul>
       </div>
     </div>
-        <!--this is where the header ends -->
+  </div>
+
+  <div id="hero">
+   <div class="container">
+     <div class="sixteen columns" id="heading-words">
+       <h1>With <span>Jott.ly</span> sharing content has never been so easy.</h1>
+       <a class="hero-btn" href="#">Learn More</a>
+     </div>
+   </div>
+ </div>
+        <!--header ends-->
 
         <!--this is the content section-->
-        <div class="container">
-      <div class="twelve columns offset-by-two">
-        <h2>What is Jott.ly exactly?</h2>
-        <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
-      </div>
-      <div class="fourteen columns offset-by-one">
-        <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
-      </div>
-    </div>
-      <div class="testimonials">
-        <div class="one-third column">
-        <div class="avatar">
-          <img src="http://cdn.getforge.com/jott.ly.getforge.io/1398310739/img/user-photos/elle.png" alt="Jessica S." />
-          <p>Jessica S.</p>
-        </div>
-            <blockquote>
-          “Jott.ly made it so much easier and fun to collaborate with my team. It made sharing project information much faster.
-        </blockquote>
-      </div>
+        <div id="prod-desc">
+   <div class="container">
+     <!--This is the left column for text-->
+     <div id="prod-desc-text" class="eight columns">
+       <h2>A little bit about Jott.ly</h2>
+       <p> It is a simple SaaS (Software as a Service) web <br>application focused on   allowing users to sign up and create an account, make simple content pages, and   provide a way to collaborate with others within their organization.</p>
+     </div>
+     <!--This is the right column for text-->
+     <div id="prod-desc-img" class="eight columns">
+       <img class="scale-with-grid" src="https://raw.githubusercontent.com/josetorres1198/jottly_site/gh-pages/images/jottly-mock.png" alt="macbook jottly">
+     </div>
+     </div>
+ </div>
+        <!--end of content-->
 
-      <div class="one-third column">
-        <div class="avatar">
-          <img src="http://jeya.io/jottly/images/norbert.png" alt="Jason P." />
-          <p>Jason P.</p>
+        <!--testimonials section starts-->
+      <div id="prod-feature">
+   <div class="container">
+     <div class="sixteen columns">
+       <h2>Who is using it?</h2>
+       <h3>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</h3>
+     </div>
+     <!--Feature 1 description-->
+     <div class="one-third column">
+        <div class="feature-img">
+          <img src="http://cdn.getforge.com/jott.ly.getforge.io/1398310739/img/user-photos/elle.png" alt="Ideas Feature">
         </div>
-                <blockquote>
-          “I loved the reat-time editing option and the collaborating capability. Awesome app and would recommend to all my friends and family.
-        </blockquote>
+          <h3>Jessica P.</h3>
+          <p>“Jott.ly made it so much easier and fun to collaborate with my team. It made sharing project information much faster."</p>
+     </div>
+     <!--Feature 2 description-->
+     <div class="one-third column">
+      <div class="feature-img">
+       <img src="http://jeya.io/jottly/images/norbert.png" alt="Build Feature">
       </div>
+       <h3>James F.</h3>
+       <p>“I loved the reat-time editing option and the collaborating capability. Awesome app and would recommend to all my friends and family."</p>
+     </div>
+       <div class="one-third column">
+      <div class="feature-img">
+        <img src="http://jeya.io/jottly/images/kinsley.png" alt="Text editor feature">
+      </div>
+       <h3>Emily S.</h3>
+       <p>"It was easy to use and it was fun working on new projects with so much fun."</p>
+     </div>
        </div>
-        <div class="bottom">
-            <h2>Its fun and free. For LIFE!</h2>
+          </div>
+       <!--end of testimonials-->
+
+     <div id="newsletter">
+   <div class="container">
+     <div class="sixteen columns">
+       <h2>Join <em>Jott.ly</em> today Its <em>fun</em> and <em>free</em> For LIFE!</h2>
+         <button type="submit" name="sign up">Sign Up Now</button>
+     </div>
+   </div>
+ </div>
+        <div id="footer">
+            <h4>&copy; 2014, All Rights Reserved</h4>
+           
         </div>
-        <!--this is end of content-->
-        <footer>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Privacy &amp Terms</a></li>
-            </ul>
-        </footer>
-</body>
+
+    </body>
 </html>
